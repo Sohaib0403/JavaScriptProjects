@@ -42,10 +42,7 @@ async function checkWeather(city) {
 
     
 }
-
-document.addEventListener("DOMContentLoaded", () => {
     searchBtn.addEventListener("click", () => {
         checkWeather(searchBox.value);
     });
-});
 
